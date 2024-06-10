@@ -49,6 +49,3 @@ async function areUSure(question: string){
 }
 
 export const Dialogs = {success, error, areUSure};
-
-
-//TODO: check designs for popups

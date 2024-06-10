@@ -9,7 +9,7 @@ And most importantly, you will know where the magic began
 
 # Project Structure
 
-My project is devided to backend and frontend:
+My project is divided to backend and frontend:
 - Backend: the backend contains entity tables for the DB and manages all the actions to be performed on it.
 The backend also responsible for the security.
 
