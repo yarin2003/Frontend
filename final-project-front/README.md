@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# Final Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My project is a Music API.
 
-Currently, two official plugins are available:
+Music API is a collection of artists, albums and songs
+You will be able to get information about each of them
+By expolring them, you can reach a deeper connection to the music you hear
+And most importantly, you will know where the magic began 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Project Structure
 
-## Expanding the ESLint configuration
+My project is devided to backend and frontend:
+- Backend: the backend contains entity tables for the DB and manages all the actions to be performed on it.
+The backend also responsible for the security.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Frontend: the front manages the design and the attp calls according to the backend.

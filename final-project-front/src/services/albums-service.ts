@@ -14,7 +14,7 @@ const getAllAlbumsNoLimit = async () => {
 const getAlbumsByArtistId = async (artistId: number) => {
   const res = await request({
     url: `/artists/${artistId}/albums`,
-    params: {pageSize: 100000}
+    params: {pageSize: 100000000}
   });
   return res.data;
 };

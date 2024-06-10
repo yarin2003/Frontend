@@ -9,7 +9,7 @@ const getAllSongs = async (pageNo: number) => {
 const getSongsByAlbumId = async (albumId: number) => {
   const res = await request({
     url: `/albums/${albumId}/songs`,
-    params: { pageSize: 100000 },
+    params: { pageSize: 100000000 },
   });
   return res.data;
 };

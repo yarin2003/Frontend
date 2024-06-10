@@ -5,7 +5,6 @@ import styles from "./Item.module.scss";
 const SongItem = (request: Song) => {
 
   const {
-    id,
     songTitle,
     songReleased,
     genres,

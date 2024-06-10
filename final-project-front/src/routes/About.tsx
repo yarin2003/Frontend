@@ -5,7 +5,6 @@ const About = () => {
   const nav = useNavigate();
 
   return (
-    //TODO: whats the difference between entering page & about?
     <div className={styles.about}>
       <h1 className={styles.h1About}>MUSIC API</h1>
       <h2 className={styles.h2}>~ Music Is Art ~</h2>
