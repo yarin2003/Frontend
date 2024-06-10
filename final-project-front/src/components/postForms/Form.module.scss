@@ -1,0 +1,16 @@
+
+.select {
+    @apply flex flex-col items-center w-full;
+
+  [class$="-control"] {
+    @apply w-7/12 snap-center mx-auto border-2 border-slate-600 rounded-3xl hover:border-slate-950;
+  }
+
+  [class$="-menu"] {
+    @apply flex flex-col w-7/12 rounded-2xl max-h-28 overflow-y-auto;
+  }
+   
+  [class$="-option"] {
+    @apply py-1.5 rounded-3xl w-full border-none hover:bg-slate-300;
+  }
+}

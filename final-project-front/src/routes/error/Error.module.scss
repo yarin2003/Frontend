@@ -1,0 +1,17 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  h1 {
+    @apply text-red-500 text-7xl mb-4 font-bold font-serif;
+  }
+
+  h2 {
+    @apply text-red-500 text-3xl mb-2 font-bold font-serif;
+  }
+}

@@ -1,0 +1,10 @@
+.result{
+    @apply bg-white flex mt-0.5 mx-auto justify-center items-center rounded-xl text-center border border-slate-700 hover:bg-slate-200  
+}
+.div{
+    @apply  mt-1 ml-9 min-w-40 w-3/5 max-h-32 overflow-y-auto
+}
+
+.input{
+    @apply h-6 outline-none w-3/5 rounded-2xl bg-transparent border-slate-600 border-2 text-lg 
+}
